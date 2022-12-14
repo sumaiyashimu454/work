@@ -1,0 +1,209 @@
+boddy{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+   margin: 0 auto;
+}
+.clear{
+    overflow: hidden;
+}
+.topbar{
+    background-color: black;
+}
+.contact-icon{
+    width:80%;
+    float: left;
+
+}
+.contact-icon i{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    
+    }
+    .contact-icon a{
+        color: white;
+        text-decoration: none;
+    }
+    .social-icon{
+        width: 20%;
+        float: right;
+    }
+    .social-icon i{
+        color: white;
+        font-size: 18px;
+        padding: 18px;
+    }
+    .navbar{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: o;
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        margin: 20px 0px;
+    }
+    .navbar ul li{
+        font-family: century;
+        font-size: 1-1rem;
+        font-weight: bold;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px 25px;
+        transition: all .5s case; 
+    }
+    .navbar ul li a:hover{
+        background-color: white;
+        color: black;
+        box-shadow: 0,0,10px white;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 400px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+    }
+    .btn{
+        padding: 10px 35px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        outline: none;
+        transition: .6s ease;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white;
+        font-weight: bold;
+    } 
+    .heading{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding: 30px;
+        
+        
+
+        
+    }
+    .about-text{
+        width:50%;
+        float:right;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+
+    }
+    .about-text p{
+     font-size: 15px;
+      
+    }
+    .btn-about{
+        border:black;
+        outline: none;
+        border-color:white;
+        font-family: inherit;
+        color: black;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        
+
+    }
+    .about-images{
+      width: 50%;
+      float:left;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;  
+    }
+    
+    .protfolio{
+        display:flexbox ; 
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    .service{
+        width: 240px;
+        float: left;
+        text-align: center;
+        margin: 19px;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    .service i{
+        font-size: 40px;
+    }
+    .btn-service{
+        border: none;
+        outline: none;
+        border-color: black;
+        font-family: inherit;
+        color:black;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius:10px;
+    }
+    .header{
+        text-align: center;
+       
+    }
+    .contact{
+        flex-direction:center;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: black;
+        padding: 20px;
+    }
+    .input{
+        padding: 12px;
+        margin: 15px;
+        width: 30%;
+        border: none;
+        outline: none;
+    
+      }
+      .msg{
+        width: 20%;
+        padding: 10px;
+        margin: 15px;
+        border: none;
+        outline: none;
+      }
+      .send{
+        padding:20px;
+        width: 20%;
+        margin:30px;
+      
+      }
+
+    
+
